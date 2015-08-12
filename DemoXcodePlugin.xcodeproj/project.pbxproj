@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C2720E8C1B7AC53700AB34D5 /* DemoXcodePlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = C2720E8B1B7AC53700AB34D5 /* DemoXcodePlugin.m */; };
+		C27E0A461B7AC82E009DCBB6 /* DemoXcodePlugin.xcplugin in CopyFiles */ = {isa = PBXBuildFile; fileRef = C2720E7F1B7AC45A00AB34D5 /* DemoXcodePlugin.xcplugin */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		C27E0A451B7AC81E009DCBB6 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "~/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+			dstSubfolderSpec = 0;
+			files = (
+				C27E0A461B7AC82E009DCBB6 /* DemoXcodePlugin.xcplugin in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		C2720E7F1B7AC45A00AB34D5 /* DemoXcodePlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoXcodePlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2720E821B7AC45A00AB34D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2720E8A1B7AC53700AB34D5 /* DemoXcodePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoXcodePlugin.h; sourceTree = "<group>"; };
+		C2720E8B1B7AC53700AB34D5 /* DemoXcodePlugin.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoXcodePlugin.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2720E7C1B7AC45A00AB34D5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2720E761B7AC45A00AB34D5 = {
+			isa = PBXGroup;
+			children = (
+				C2720E811B7AC45A00AB34D5 /* DemoXcodePlugin */,
+				C2720E801B7AC45A00AB34D5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2720E801B7AC45A00AB34D5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2720E7F1B7AC45A00AB34D5 /* DemoXcodePlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C2720E811B7AC45A00AB34D5 /* DemoXcodePlugin */ = {
+			isa = PBXGroup;
+			children = (
+				C2720E821B7AC45A00AB34D5 /* Info.plist */,
+				C2720E8A1B7AC53700AB34D5 /* DemoXcodePlugin.h */,
+				C2720E8B1B7AC53700AB34D5 /* DemoXcodePlugin.m */,
+			);
+			path = DemoXcodePlugin;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2720E7E1B7AC45A00AB34D5 /* DemoXcodePlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2720E851B7AC45A00AB34D5 /* Build configuration list for PBXNativeTarget "DemoXcodePlugin" */;
+			buildPhases = (
+				C2720E7B1B7AC45A00AB34D5 /* Sources */,
+				C2720E7C1B7AC45A00AB34D5 /* Frameworks */,
+				C2720E7D1B7AC45A00AB34D5 /* Resources */,
+				C27E0A451B7AC81E009DCBB6 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoXcodePlugin;
+			productName = DemoXcodePlugin;
+			productReference = C2720E7F1B7AC45A00AB34D5 /* DemoXcodePlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2720E771B7AC45A00AB34D5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = mikeash;
+				TargetAttributes = {
+					C2720E7E1B7AC45A00AB34D5 = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = C2720E7A1B7AC45A00AB34D5 /* Build configuration list for PBXProject "DemoXcodePlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C2720E761B7AC45A00AB34D5;
+			productRefGroup = C2720E801B7AC45A00AB34D5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2720E7E1B7AC45A00AB34D5 /* DemoXcodePlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2720E7D1B7AC45A00AB34D5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2720E7B1B7AC45A00AB34D5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2720E8C1B7AC53700AB34D5 /* DemoXcodePlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C2720E831B7AC45A00AB34D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		C2720E841B7AC45A00AB34D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C2720E861B7AC45A00AB34D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DemoXcodePlugin/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeash.DemoXcodePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		C2720E871B7AC45A00AB34D5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = DemoXcodePlugin/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mikeash.DemoXcodePlugin;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2720E7A1B7AC45A00AB34D5 /* Build configuration list for PBXProject "DemoXcodePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2720E831B7AC45A00AB34D5 /* Debug */,
+				C2720E841B7AC45A00AB34D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2720E851B7AC45A00AB34D5 /* Build configuration list for PBXNativeTarget "DemoXcodePlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2720E861B7AC45A00AB34D5 /* Debug */,
+				C2720E871B7AC45A00AB34D5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2720E771B7AC45A00AB34D5 /* Project object */;
+}
