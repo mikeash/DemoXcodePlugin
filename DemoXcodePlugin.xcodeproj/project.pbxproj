@@ -78,6 +78,7 @@
 				C2720E7B1B7AC45A00AB34D5 /* Sources */,
 				C2720E7C1B7AC45A00AB34D5 /* Frameworks */,
 				C2720E7D1B7AC45A00AB34D5 /* Resources */,
+				E0C3A1961B8B0A6500B031AA /* Add current xcode plugin keys to plugin info.plist */,
 				C27E0A451B7AC81E009DCBB6 /* CopyFiles */,
 			);
 			buildRules = (
@@ -129,6 +130,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E0C3A1961B8B0A6500B031AA /* Add current xcode plugin keys to plugin info.plist */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Add current xcode plugin keys to plugin info.plist";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/zsh;
+			shellScript = "#!/bin/zsh\n\ninstalledxcodeversions=(`find /Applications -name 'Xcode*'  -type d -maxdepth 1 -exec defaults read {}/Contents/Info.plist DVTPlugInCompatibilityUUID \\;`)\n\nfor xcodeversion in $installedxcodeversions\ndo\n    echo ${xcodeversion}\n    defaults write ${TARGET_BUILD_DIR}/${INFOPLIST_PATH} DVTPlugInCompatibilityUUIDs -array-add ${xcodeversion}\ndone\n\n\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C2720E7B1B7AC45A00AB34D5 /* Sources */ = {
